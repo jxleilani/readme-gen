@@ -76,14 +76,13 @@ function formattedFile(data) {
 
 return `
 # ${data.title}
-${licenseBadge}
-
+${licenseBadge}  
 URL: ${data.url}
 ## Description:
 ${data.description}
 ## Table of Contents:
-* Installation Instructions
-* Usage Information
+* Installation
+* Usage
 * Test Instructions
 * Contribution Guidelines
 * License
