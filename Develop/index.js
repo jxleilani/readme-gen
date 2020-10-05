@@ -12,13 +12,13 @@ function promptUser() {
         },
         {
             type: "input",
-            name: "description",
-            message: "Enter a description of your project:"
+            name: "url",
+            message: "Enter the URL for your deployed page:"
         },
         {
             type: "input",
-            name: "contents",
-            message: "Table of Contents:"
+            name: "description",
+            message: "Enter a description of your project:"
         },
         {
             type: "input",
@@ -77,19 +77,26 @@ function formattedFile(data) {
 return `
 # ${data.title}
 ${licenseBadge}
+
+URL: ${data.url}
 ## Description:
 ${data.description}
 ## Table of Contents:
-${data.contents}
-## Installation instructions:
+* Installation Instructions
+* Usage Information
+* Test Instructions
+* Contribution Guidelines
+* License
+* Contact
+## Installation Instructions:
 ${data.installation}
-## Usage information:
+## Usage Information:
 ${data.usage}
-## License: ${data.license}
-## Contribution guidelines:
-${data.contribution}
-## Test instructions:
+## Test Instructions:
 ${data.test}
+## Contribution Guidelines:
+${data.contribution}
+## License: ${data.license}
 ## Contact: 
 GitHub: [${data.github}](https://github.com/${data.github})
 
