@@ -1,8 +1,11 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
+const writeFileAsync = util.promisify(fs.writeFile);
 
+let licenseBadge = '';
 
+//function to prompt for user input
 function promptUser() {
     return inquirer.prompt([
         {
@@ -60,7 +63,6 @@ function promptUser() {
 }
 
 // function to write README file
-let licenseBadge = '';
 function formattedFile(data) {
     switch (`${data.license}`){
         case "Apache License 2.0":
@@ -104,11 +106,8 @@ For additional questions please contact: [${data.email}](mailto:${data.email})
 }
 
 //PROMISIFY ----------------------------------------------------------
-const writeFileAsync = util.promisify(fs.writeFile);
-
 promptUser()
     .then(function(response){
-    
         return writeFileAsync("README.md", formattedFile(response));
     })
     .then(function(){
