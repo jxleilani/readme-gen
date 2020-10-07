@@ -1,4 +1,4 @@
-# Read-to-me-nice, a README Generator
+# Easy README Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description:
@@ -19,6 +19,6 @@ Here's a video walk through for how to use the readmegen.js file to create your 
 
 ## Sample README
 
-[View sample](https://github.com/jxleilani/readme-gen/blob/main/Assets/SampleREADME.md)
+[View sample file on GitHub](https://github.com/jxleilani/readme-gen/blob/main/Assets/SampleREADME.md)
 
 ![Sample README File](https://jxleilani.github.io/readme-gen/Assets/sample.png)
