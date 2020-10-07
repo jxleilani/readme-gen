@@ -11,3 +11,6 @@ This README generator is a command line application that allows the user to quic
 * This will begin the prompts to create your README.
 
 ## Video walkthrough:
+
+Here's a video walk through for how to use the readmegen.js file to create your README file!  
+<iframe src="https://drive.google.com/file/d/1lXrlxYY7M_vSIJHujG7ASLS6EkWrVRgT/preview" width="640" height="480"></iframe>
