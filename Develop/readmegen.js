@@ -64,6 +64,7 @@ function promptUser() {
 
 // function to write README file
 function formattedFile(data) {
+    //create license badge based on input
     switch (`${data.license}`){
         case "Apache License 2.0":
             licenseBadge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
@@ -75,7 +76,7 @@ function formattedFile(data) {
             licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
             break;
     }
-
+//create README.md text
 return `
 # ${data.title}
 ${licenseBadge}  
@@ -105,8 +106,8 @@ For additional questions please contact: [${data.email}](mailto:${data.email})
 `;
 }
 
-//PROMISIFY ----------------------------------------------------------
-promptUser()
+const readMeGen = () =>{
+    promptUser()
     .then(function(response){
         return writeFileAsync("README.md", formattedFile(response));
     })
@@ -116,3 +117,9 @@ promptUser()
     .catch(function(err){
         console.log(err);
     })
+
+}
+
+module.exports = {
+    readmegen: readMeGen
+};

@@ -1,9 +1,9 @@
 
-# My Sample Project
+# My Sample Project 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 URL: jxleilani.github.io
 ## Description:
-Description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan non dolor nec iaculis. In ex neque, pulvinar ac dolor.
+Description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis fringilla nisl imperdiet interdum. Morbi vulputate, lacus vitae ullamcorper accumsan.
 ## Table of Contents:
 * Installation
 * Usage
@@ -12,13 +12,13 @@ Description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a
 * License
 * Contact
 ## Installation Instructions:
-Install Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan non dolor nec iaculis. In ex neque, pulvinar ac dolor.
+Installation Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis fringilla nisl imperdiet interdum. Morbi vulputate, lacus vitae ullamcorper accumsan.
 ## Usage Information:
-Usage Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan non dolor nec iaculis. In ex neque, pulvinar ac dolor.
+How to use: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis fringilla nisl imperdiet interdum. Morbi vulputate, lacus vitae ullamcorper accumsan.
 ## Test Instructions:
-Test like this: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan non dolor nec iaculis. In ex neque, pulvinar ac dolor.
+test like this: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis fringilla nisl imperdiet interdum. Morbi vulputate, lacus vitae ullamcorper accumsan.
 ## Contribution Guidelines:
-guidelines Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan non dolor nec iaculis. In ex neque, pulvinar ac dolor.
+Guidelines for contribution: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis fringilla nisl imperdiet interdum. Morbi vulputate, lacus vitae ullamcorper accumsan.
 ## License: MIT
 ## Contact: 
 GitHub: [jxleilani](https://github.com/jxleilani)
